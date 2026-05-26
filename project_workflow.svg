@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="260" viewBox="0 0 1160 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hotel Booking Cancellation Prediction Workflow</title>
+  <desc id="desc">Workflow from booking data through cleaning, EDA, feature engineering, preprocessing, model comparison, final model, and business action.</desc>
+  <rect width="1160" height="260" fill="#f8fafc"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Hotel Booking Cancellation Prediction Workflow</text>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#111827">
+    <g transform="translate(40,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+      <text x="65" y="33" text-anchor="middle" font-weight="700">Booking</text>
+      <text x="65" y="55" text-anchor="middle">Data</text>
+    </g>
+    <g transform="translate(195,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+      <text x="65" y="33" text-anchor="middle" font-weight="700">Clean and</text>
+      <text x="65" y="55" text-anchor="middle">Validate</text>
+    </g>
+    <g transform="translate(350,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#9333ea" stroke-width="2"/>
+      <text x="65" y="33" text-anchor="middle" font-weight="700">EDA and</text>
+      <text x="65" y="55" text-anchor="middle">Insights</text>
+    </g>
+    <g transform="translate(505,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#ca8a04" stroke-width="2"/>
+      <text x="65" y="33" text-anchor="middle" font-weight="700">Feature</text>
+      <text x="65" y="55" text-anchor="middle">Engineering</text>
+    </g>
+    <g transform="translate(660,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+      <text x="65" y="28" text-anchor="middle" font-weight="700">Preprocess</text>
+      <text x="65" y="50" text-anchor="middle">and SMOTE</text>
+    </g>
+    <g transform="translate(815,92)">
+      <rect width="130" height="76" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="2"/>
+      <text x="65" y="33" text-anchor="middle" font-weight="700">Compare</text>
+      <text x="65" y="55" text-anchor="middle">Models</text>
+    </g>
+    <g transform="translate(970,92)">
+      <rect width="150" height="76" rx="8" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+      <text x="75" y="28" text-anchor="middle" font-weight="700">Risk Scores</text>
+      <text x="75" y="50" text-anchor="middle">and Business</text>
+      <text x="75" y="68" text-anchor="middle">Action</text>
+    </g>
+  </g>
+  <g stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M170 130 H193"/>
+    <path d="M325 130 H348"/>
+    <path d="M480 130 H503"/>
+    <path d="M635 130 H658"/>
+    <path d="M790 130 H813"/>
+    <path d="M945 130 H968"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <text x="40" y="215" font-family="Arial, sans-serif" font-size="15" fill="#334155">Final model: Random Forest | Accuracy: 88% | ROC-AUC: 0.94 | Cleaned bookings: 36,248</text>
+</svg>
