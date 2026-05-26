@@ -1,0 +1,23 @@
+I am excited to share my Hotel Booking Cancellation Risk Prediction project, a machine learning portfolio project focused on a real business challenge in hospitality: identifying bookings that are more likely to be canceled.
+
+Cancellations can affect revenue forecasting, room inventory planning, staffing, and customer engagement. The goal of this project was not only to build a predictive model, but to translate booking data into practical business insight that hotel teams could use to act earlier.
+
+Project highlights:
+
+- Cleaned dataset: 36,248 hotel bookings
+- Cancellation rate: 32.8%
+- Best model: Random Forest
+- Accuracy: 88%
+- ROC-AUC: 0.94
+- Final confusion matrix: TN=4,437, FP=436, FN=407, TP=1,970
+
+The workflow included data cleaning, exploratory analysis, feature engineering, preprocessing, class balancing with SMOTE, model comparison, and final business interpretation.
+
+The Random Forest model showed strong performance in ranking cancellation risk, which could help hotels prioritize customer follow-up, improve revenue planning, monitor higher-risk booking channels, and design more targeted retention strategies.
+
+Key business takeaway:
+Predictive analytics can help hotels move from reacting to cancellations after they happen to proactively managing cancellation risk before it affects operations and revenue.
+
+This project strengthened my ability to connect machine learning outputs with business decision-making, especially in customer behavior, revenue management, and operational planning.
+
+#DataAnalytics #MachineLearning #Python #HospitalityAnalytics #PredictiveAnalytics #PortfolioProject #DataScience

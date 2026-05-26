@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data and large local files
+data/*
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.zip
+*.tar
+*.gz
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Temporary outputs
+tmp/
+temp/
+*.log
